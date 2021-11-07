@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MD Cares</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string-array name="time">
+        <item>9-10 AM</item>
+        <item>10-11 AM</item>
+        <item>1-2 PM</item>
+        <item>2-3 PM</item>
+        <item>3-4 PM</item>
+    </string-array>
+    <string-array name="gen">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="checkup">
+        <item>Physical Checkup</item>
+        <item>Mammogram</item>
+        <item>STD Screening</item>
+        <item>Cholesterol and Blood Pressure</item>
+        <item>Diabetes Test</item>
+        <item>Hearing and Vision Screening</item>
+        <item>Oral Health Checkup</item>
+    </string-array>
+
+</resources>

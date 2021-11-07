@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/babyblue">
+
+
+    <TextView
+        android:id="@+id/welcomeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Welcome!"
+        android:textColor="#020202"
+        android:textSize="35sp"
+        tools:textColor="#020202" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeTxt"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        android:textColor="#020202"
+        android:textSize="25sp"
+        tools:textColor="#020202" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ste"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="120sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="30sp"
+        android:layout_below="@+id/name"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/Cov"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:text="Tips to avoid covid"
+            android:paddingTop="70dp"
+            android:drawableTop="@drawable/ic_baseline_coronavirus_24"
+            android:gravity="center_horizontal|top"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/Res"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:text="Create appointment"
+            android:paddingTop="70dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:drawableTop="@drawable/ic_baseline_playlist_add_24"
+            android:gravity="center_horizontal|top"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/Tips"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:text="Health Tips"
+            android:paddingTop="70dp"
+            android:drawableTop="@drawable/ic_baseline_local_hospital_24"
+            android:gravity="center_horizontal|top"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/Dev"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:text="See appointment"
+            android:paddingTop="70dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:drawableTop="@drawable/ic_baseline_people_alt_24"
+            android:gravity="center_horizontal|top"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+    </GridLayout>
+
+
+
+
+
+</RelativeLayout>

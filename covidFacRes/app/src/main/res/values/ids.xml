@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="myType" type="id" />
+    <item name="btndev" type="id" />
+    <item name="myTime" type="id" />
+    <item name="myTypetxt" type="id" />
+    <item name="myTimetxt" type="id" />
+    <item name="myDate" type="id" />
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/covidFacRes/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/covidFacRes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/covidFacRes/app/src/main/res/layout/activity_reservation.xml" value="0.33801295896328293" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/covidFacRes/app/src/main/res/layout/calendar_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/ic_baseline_alternate_email_24.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/ic_baseline_boy_24.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/logoutrnd.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/roundbtn.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/drawable/spinner_gradient.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/font/montserrat.xml" value="0.21963470319634704" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_cov_avoid.xml" value="0.25" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_dev_team.xml" value="0.33" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_health_tips.xml" value="0.22" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_login.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_maps.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_reservation.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_see_apt.xml" value="0.33" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/dropdown_item.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/round_img.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/select_item.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/layout/select_iten.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/menu/mymenu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/User/22/covidFacRes/app/src/main/res/mipmap-anydpi-v26/facebookkk.xml" value="0.20730593607305936" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/btnradius.xml" value="0.240625" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/ic_baseline_app_registration_24.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/ic_baseline_face_24.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/logoutrnd.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/drawable/roundbtn.xml" value="0.240625" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/layout/activity_maps.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/layout/activity_startscreen.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/covidFacRes/app/src/main/res/menu/mymenu.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reservation"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an Appointment"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/Cappt"
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Cappt"
+        android:layout_centerInParent="true"
+        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+        android:focusableInTouchMode="false"
+        android:hint="Choose date of Appointment:"
+        android:includeFontPadding="false"
+        android:inputType="date"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTxt"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:text="Time"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+        android:scrollbarSize="10dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/typeCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp"
+        android:text="Type of Check up"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:drawableStart="@drawable/ic_baseline_event_note_24"/>
+
+    <Spinner
+        android:id="@+id/spinnercheck"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/typeCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+        android:scrollbarSize="10dp"
+        android:spinnerMode="dropdown"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmRes"
+        android:backgroundTint="@color/midnightblue"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinnercheck"
+        android:text="Done"
+        android:layout_margin="30dp"/>
+
+
+</RelativeLayout>
